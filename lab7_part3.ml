@@ -102,7 +102,7 @@ Exercise 3C: Now, use `IntListStack` functions to write an expression that
 defines `last_el` as the value of the topmost element from `small_stack`.
 ......................................................................*)
 
-let last_el = let last_el = IntListStack.top (small_stack ()) ;; ;;
+let last_el= IntListStack.top (small_stack ())  ;;
 
 (* Based on our requirements above, what should the value `last_el` be?
 
